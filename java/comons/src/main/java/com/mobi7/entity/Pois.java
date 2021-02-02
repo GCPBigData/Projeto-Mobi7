@@ -27,6 +27,7 @@ public class Pois implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "pois_id_seq")
+	@Column(name = "id")
 	private long id;
 	@Column(name = "nome")
 	private String nome;
