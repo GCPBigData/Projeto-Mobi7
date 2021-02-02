@@ -15,6 +15,8 @@ Requisitos Funcionais obrigatórios:
 
 BATCH JAVA
 
+https://github.com/GCPBigData/Projeto-Mobi7/tree/main/batch
+
 
 ![](./img/java.png)
 
@@ -32,6 +34,10 @@ https://github.com/GCPBigData/Projeto-Mobi7/tree/main/java
 
 
 FRONT END ANGULAR
+
+https://github.com/GCPBigData/Projeto-Mobi7/tree/main/front
+
+
 Requisitos funcionais não-obrigatórios:
     • É nice to have os itens descritos acima mostrados em um dashboard.
     
