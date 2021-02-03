@@ -1,12 +1,15 @@
 spring:
   r2dbc:
-    url: r2dbc:postgresql://localhost:5432/mobi7?schema=mobi7
+    url: r2dbc:postgresql://localhost:5432/mobi7
     username: postgres
     password: debian23
-
+# Logger configuration
 logging:
+  pattern:
+    console: "%d %-5level %logger : %msg%n"
   level:
-    org:
-      springframework:
-        data:
-          r2dbc: DEBUG
+    org.springframework: info
+    org.hibernate: debug
+# Server configuration
+server:
+  port: 8080 #set your port
